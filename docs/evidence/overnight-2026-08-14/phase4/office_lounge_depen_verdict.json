@@ -1,0 +1,18 @@
+{
+ "verdict": "PASS",
+ "reasons": [],
+ "worst_penetration_mm": 0.2,
+ "residual_penetrations_mm": {
+  "black_backpack_0 | world": 0.2,
+  "blue_and_black_laptop_2_0 | world": 0.2,
+  "grey_and_yellow_bench_0 | world": 0.2,
+  "black_thermos_0 | white_round_table_0": 0.1,
+  "white_round_table_0 | world": 0.1,
+  "black_laptop_1_0 | grey_and_yellow_bench_0": 0.0
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": 0.1128,
+ "settled_s": 30.0,
+ "diverged": null
+}

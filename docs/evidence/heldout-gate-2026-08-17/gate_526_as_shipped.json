@@ -1,0 +1,51 @@
+{
+ "verdict": "FAIL",
+ "reasons": [
+  "divergence: mjWARN_BADQACC at t=9.454s on body 'black_thermos_bottle_0' (dof 54)",
+  "residual penetration 115.0 mm > 20 mm: black_mesh_office_chair_0 | wooden_desk_0",
+  "topple: body 'black_camera_rig_0' tilted 74.4\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'blue_ball_0' tilted 38.2\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'green_hand_sanitizer_bottle_0' tilted 94.8\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'white_robotic_arm_model_0' tilted 62.1\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'black_thermos_bottle_0' tilted 159.4\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'framed_photo_1_0' tilted 33.8\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'framed_photo_2_0' tilted 38.2\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'black_power_adapter_0' tilted 41.4\u00b0 (> 30\u00b0) vs spawn"
+ ],
+ "worst_penetration_mm": 115.0,
+ "residual_penetrations_mm": {
+  "black_mesh_office_chair_0 | wooden_desk_0": 115.0,
+  "black_power_adapter_0 | world": 0.5,
+  "black_camera_stand_0 | wooden_desk_0": 0.5,
+  "green_ball_0 | wooden_desk_0": 0.4,
+  "green_hand_sanitizer_bottle_0 | world": 0.3,
+  "world | yellow_screwdriver_0": 0.2,
+  "black_mesh_office_chair_0 | world": 0.2,
+  "white_robotic_arm_model_0 | world": 0.2,
+  "black_camera_rig_0 | world": 0.1,
+  "framed_photo_1_0 | world": 0.1,
+  "blue_ball_0 | wooden_desk_0": 0.1,
+  "framed_photo_3_0 | world": 0.1,
+  "framed_photo_2_0 | world": 0.1,
+  "framed_photo_1_0 | framed_photo_2_0": 0.0
+ },
+ "escapes": {},
+ "topples": {
+  "black_camera_rig_0": 74.4,
+  "blue_ball_0": 38.2,
+  "green_hand_sanitizer_bottle_0": 94.8,
+  "white_robotic_arm_model_0": 62.1,
+  "black_thermos_bottle_0": 159.4,
+  "framed_photo_1_0": 33.8,
+  "framed_photo_2_0": 38.2,
+  "black_power_adapter_0": 41.4
+ },
+ "late_jitter": null,
+ "settled_s": 9.0,
+ "diverged": {
+  "time_s": 9.454,
+  "warning": "mjWARN_BADQACC",
+  "dof": 54,
+  "body": "black_thermos_bottle_0"
+ }
+}

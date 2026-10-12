@@ -1,0 +1,181 @@
+[
+ {
+  "label": "01_armchair_corner",
+  "xml": "<run dir>/fresh_20260818/lens_01_armchair_corner/mujoco/01_armchair_corner.xml",
+  "n_ground_truth": 2,
+  "n_bodies": 2,
+  "recall": 0.5,
+  "matched": [
+   [
+    "wooden armchair",
+    "grey_fabric_armchair_0"
+   ]
+  ],
+  "missed": [
+   "orange cushion"
+  ],
+  "extra": [
+   "yellow_velvet_pillow_0"
+  ]
+ },
+ {
+  "label": "02_conference_six_chairs",
+  "xml": "<run dir>/fresh_20260818/lens_02_conference_six_chairs/mujoco/02_conference_six_chairs.xml",
+  "n_ground_truth": 8,
+  "n_bodies": 4,
+  "recall": 0.5,
+  "matched": [
+   [
+    "conference table",
+    "wooden_conference_table_0"
+   ],
+   [
+    "office chair",
+    "black_mesh_office_chair_1_0"
+   ],
+   [
+    "office chair",
+    "black_mesh_office_chair_2_0"
+   ],
+   [
+    "office chair",
+    "black_mesh_office_chair_3_0"
+   ]
+  ],
+  "missed": [
+   "office chair",
+   "office chair",
+   "office chair",
+   "papers on the table"
+  ],
+  "extra": []
+ },
+ {
+  "label": "03_cafe_counter_cups",
+  "xml": "<run dir>/fresh_20260818/lens_03_cafe_counter_cups/mujoco/03_cafe_counter_cups.xml",
+  "n_ground_truth": 17,
+  "n_bodies": 18,
+  "recall": 0.529,
+  "matched": [
+   [
+    "tiled service counter",
+    "white_tiled_counter_0"
+   ],
+   [
+    "glass pastry display case",
+    "glass_display_case_0"
+   ],
+   [
+    "coffee grinder",
+    "coffee_grinder_0"
+   ],
+   [
+    "tall stack of paper cups",
+    "stack_of_paper_cups_1_0"
+   ],
+   [
+    "short stack of paper cups",
+    "stack_of_paper_cups_2_0"
+   ],
+   [
+    "coffee machine",
+    "espresso_machine_0"
+   ],
+   [
+    "bentwood chair",
+    "grey_upholstered_chair_0"
+   ],
+   [
+    "round wooden table",
+    "small_round_wooden_table_0"
+   ],
+   [
+    "chalkboard menu sign",
+    "black_chalkboard_sign_0"
+   ]
+  ],
+  "missed": [
+   "glass drink dispenser",
+   "glass cake dome",
+   "cutlery caddy",
+   "juice bottles on the shelf",
+   "drinks cooler",
+   "white display fridge",
+   "second round wooden table",
+   "vase of flowers"
+  ],
+  "extra": [
+   "wooden_armchair_0",
+   "tall_black_beverage_refrigerator_0",
+   "small_white_refrigerator_0",
+   "paper_menu_stand_0",
+   "stack_of_paper_cups_3_0",
+   "yellow_sign_0",
+   "white_trash_bin_0",
+   "black_metal_shelving_unit_0",
+   "wooden_shelf_0"
+  ]
+ },
+ {
+  "label": "04_meeting_book_stack",
+  "xml": "<run dir>/fresh_20260818/lens_04_meeting_book_stack/mujoco/04_meeting_book_stack.xml",
+  "n_ground_truth": 13,
+  "n_bodies": 16,
+  "recall": 0.769,
+  "matched": [
+   [
+    "round white table",
+    "white_round_table_0"
+   ],
+   [
+    "stack of books on the table",
+    "stack_of_books_1_0"
+   ],
+   [
+    "white office chair",
+    "white_office_chair_0"
+   ],
+   [
+    "wooden sideboard",
+    "wooden_sideboard_0"
+   ],
+   [
+    "potted palm",
+    "potted_palm_plant_0"
+   ],
+   [
+    "large framed painting",
+    "large_green_painting_0"
+   ],
+   [
+    "blue bowl",
+    "small_blue_bowl_0"
+   ],
+   [
+    "stack of papers on the sideboard",
+    "stack_of_books_2_0"
+   ],
+   [
+    "rolled papers",
+    "white_paper_rolls_0"
+   ],
+   [
+    "teal figurine",
+    "small_blue_figurine_0"
+   ]
+  ],
+  "missed": [
+   "floor lamp",
+   "small framed picture",
+   "framed print"
+  ],
+  "extra": [
+   "small_framed_photo_0",
+   "grey_framed_artwork_0",
+   "black_framed_certificate_0",
+   "red_notebook_0",
+   "dark_blue_notebook_0",
+   "stack_of_white_books_0"
+  ]
+ }
+]

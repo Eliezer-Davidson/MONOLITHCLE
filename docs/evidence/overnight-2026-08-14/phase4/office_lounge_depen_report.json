@@ -1,0 +1,20 @@
+{
+ "xml_in": "<run dir>/lens_office_lounge/mujoco/office_lounge.xml",
+ "xml_out": "<evidence>/overnight_20260814/phase4/office_lounge_depen.xml",
+ "spawn_worst_body_pen_before_mm": 15.0,
+ "spawn_worst_body_pen_after_mm": 0.0,
+ "resolved": true,
+ "iterations": 22,
+ "displacements_cm": {
+  "blue_and_black_laptop_2_0": [
+   2.4,
+   -1.0,
+   -0.2
+  ],
+  "black_thermos_0": [
+   0.0,
+   -0.0,
+   1.0
+  ]
+ }
+}

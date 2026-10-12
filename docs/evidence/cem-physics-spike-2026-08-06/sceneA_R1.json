@@ -1,0 +1,70 @@
+{
+ "label": "scene A R1",
+ "regime": {
+  "LENS_SPIKE_MAX_WORKERS": "8",
+  "LENS_SPIKE_REUSE_COLLISION": "1",
+  "LENS_SPIKE_REAL_MASS": "1",
+  "LENS_SPIKE_NO_DAMPING": "1"
+ },
+ "dt_min": 1.27,
+ "integrity": "STALE ['black_backpack_0_visual.obj', 'black_laptop_1_0_visual.obj', 'black_laptop_2_0_visual.obj', 'black_thermos_0_visual.obj', 'grey_and_yellow_bench_0_visual.obj']",
+ "xml": "<run dir>/spike_sceneA_R1/mujoco/sceneA.xml",
+ "com0_pos": {
+  "grey_and_yellow_bench_0": [
+   0.0552,
+   -1.7736,
+   0.303
+  ],
+  "white_round_table_0": [
+   -0.1508,
+   -0.979,
+   0.4183
+  ],
+  "black_laptop_1_0": [
+   -0.1473,
+   -1.0591,
+   0.49
+  ],
+  "black_backpack_0": [
+   -0.2467,
+   -2.0056,
+   0.8143
+  ],
+  "black_laptop_2_0": [
+   0.4229,
+   -1.4958,
+   0.3583
+  ],
+  "black_thermos_0": [
+   -0.1881,
+   -0.8913,
+   0.505
+  ]
+ },
+ "drift_cm": {
+  "1.5": {
+   "grey_and_yellow_bench_0": 0.0,
+   "white_round_table_0": 0.0,
+   "black_laptop_1_0": 0.44,
+   "black_backpack_0": 47.68,
+   "black_laptop_2_0": 0.14,
+   "black_thermos_0": 0.42
+  },
+  "3.0": {
+   "grey_and_yellow_bench_0": 0.0,
+   "white_round_table_0": 0.0,
+   "black_laptop_1_0": 0.44,
+   "black_backpack_0": 47.89,
+   "black_laptop_2_0": 0.12,
+   "black_thermos_0": 0.42
+  },
+  "5.0": {
+   "grey_and_yellow_bench_0": 0.0,
+   "white_round_table_0": 0.0,
+   "black_laptop_1_0": 0.44,
+   "black_backpack_0": 47.89,
+   "black_laptop_2_0": 0.12,
+   "black_thermos_0": 0.42
+  }
+ }
+}

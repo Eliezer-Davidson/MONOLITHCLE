@@ -1,0 +1,68 @@
+[
+ {
+  "exp": "e1_cup_static_desk",
+  "spawn_pen_mm": -0.0,
+  "diverged": null,
+  "masses": {
+   "black_thermos_cup_0": 0.0217
+  }
+ },
+ {
+  "exp": "e2_cup_free_desk",
+  "spawn_pen_mm": 2.3,
+  "diverged": null,
+  "masses": {
+   "black_thermos_cup_0": 0.0217,
+   "left_white_desk_0": 0.7591
+  }
+ },
+ {
+  "exp": "e3_cup_desk_chair",
+  "spawn_pen_mm": 2.3,
+  "diverged": {
+   "t": 1.136,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  },
+  "masses": {
+   "black_thermos_cup_0": 0.0217,
+   "left_white_desk_0": 0.7591,
+   "black_office_chair_0": 5.2136
+  }
+ },
+ {
+  "exp": "e4_full_minus_cup",
+  "spawn_pen_mm": 3.3,
+  "diverged": null,
+  "masses": {
+   "black_computer_mouse_0": 0.0071,
+   "black_closed_laptop_0": 0.0034,
+   "right_white_desk_0": 0.5455,
+   "black_office_chair_0": 5.2136,
+   "left_white_desk_0": 0.7591,
+   "coiled_black_cable_0": 0.0413,
+   "black_open_laptop_0": 0.1494,
+   "black_backpack_0": 0.3205
+  }
+ },
+ {
+  "exp": "e5_full_scene",
+  "spawn_pen_mm": 7.9,
+  "diverged": {
+   "t": 6.698,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  },
+  "masses": {
+   "black_computer_mouse_0": 0.0071,
+   "black_closed_laptop_0": 0.0034,
+   "right_white_desk_0": 0.5455,
+   "black_office_chair_0": 5.2136,
+   "left_white_desk_0": 0.7591,
+   "coiled_black_cable_0": 0.0413,
+   "black_open_laptop_0": 0.1494,
+   "black_thermos_cup_0": 0.0217,
+   "black_backpack_0": 0.3205
+  }
+ }
+]

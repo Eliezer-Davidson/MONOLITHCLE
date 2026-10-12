@@ -1,0 +1,19 @@
+{
+ "verdict": "PASS",
+ "reasons": [],
+ "worst_penetration_mm": 0.2,
+ "residual_penetrations_mm": {
+  "small_whiteboard_0 | world": 0.2,
+  "world | yellow_and_grey_sofa_2_0": 0.2,
+  "grey_and_green_armchair_0 | world": 0.2,
+  "large_whiteboard_0 | world": 0.2,
+  "grey_armchair_0 | world": 0.2,
+  "world | yellow_and_grey_sofa_1_0": 0.1,
+  "round_coffee_table_0 | world": 0.1
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": 0.0126,
+ "settled_s": 30.0,
+ "diverged": null
+}

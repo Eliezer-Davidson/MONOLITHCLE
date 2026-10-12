@@ -1,0 +1,71 @@
+{
+ "xml": "<repo>/<run dir>/heldout_20260813/lens_1000098530/mujoco/1000098530.xml",
+ "timestep": 0.002,
+ "nbody": 10,
+ "free_bodies": [
+  "black_backpack_0",
+  "black_closed_laptop_0",
+  "black_computer_mouse_0",
+  "black_office_chair_0",
+  "black_open_laptop_0",
+  "black_thermos_cup_0",
+  "coiled_black_cable_0",
+  "left_white_desk_0",
+  "right_white_desk_0"
+ ],
+ "static_bodies": [],
+ "masses_kg": {
+  "black_office_chair_0": 5.2136,
+  "left_white_desk_0": 0.7591,
+  "right_white_desk_0": 0.5455,
+  "black_open_laptop_0": 0.1494,
+  "black_thermos_cup_0": 0.0217,
+  "black_computer_mouse_0": 0.0071,
+  "black_backpack_0": 0.3205,
+  "black_closed_laptop_0": 0.0034,
+  "coiled_black_cable_0": 0.0413
+ },
+ "damping_nonzero": false,
+ "gravity": [
+  0.0,
+  0.0,
+  -9.81
+ ],
+ "windows_s": [
+  1.5,
+  3.0,
+  5.0,
+  10.0,
+  30.0
+ ],
+ "diverged": {
+  "time_s": 1.33,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "black_thermos_cup_0"
+ },
+ "escaped": {},
+ "measurements": {
+  "1.5": {
+   "valid": false,
+   "bodies": null
+  },
+  "3.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "5.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "10.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "30.0": {
+   "valid": false,
+   "bodies": null
+  }
+ },
+ "label": "lens_530"
+}

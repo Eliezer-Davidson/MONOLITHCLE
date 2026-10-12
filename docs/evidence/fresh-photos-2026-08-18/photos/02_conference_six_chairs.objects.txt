@@ -1,0 +1,20 @@
+# Ground truth for the fresh-photograph run, 2026-08-18.
+# Written from the photograph BEFORE the pipeline ran, by a reader who had
+# seen no pipeline output. The object lines below are unmodified; only this
+# comment header was rewritten for publication.
+#
+# Rule applied to every file in this directory:
+#   INCLUDE  furniture and free-standing objects a person would name.
+#   EXCLUDE  architecture (walls, floor, ceiling), ceiling-mounted fixtures,
+#            and flat wall-mounted art, which the pipeline is not scoped to place.
+#   REPEATS  one line per instance where instances are countable.
+#   Scoring is head-noun matching (tools/score_recall.py).
+
+conference table
+office chair
+office chair
+office chair
+office chair
+office chair
+office chair
+papers on the table

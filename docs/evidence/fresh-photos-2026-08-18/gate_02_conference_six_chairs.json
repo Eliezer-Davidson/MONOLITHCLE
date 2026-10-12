@@ -1,0 +1,16 @@
+{
+ "verdict": "PASS",
+ "reasons": [],
+ "worst_penetration_mm": 0.2,
+ "residual_penetrations_mm": {
+  "wooden_conference_table_0 | world": 0.2,
+  "black_mesh_office_chair_3_0 | world": 0.1,
+  "black_mesh_office_chair_2_0 | world": 0.1,
+  "black_mesh_office_chair_1_0 | world": 0.1
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": 0.0,
+ "settled_s": 30.0,
+ "diverged": null
+}

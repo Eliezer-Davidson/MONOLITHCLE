@@ -1,0 +1,252 @@
+{
+ "xml": "<repo>/<run dir>/heldout_20260813/lens_1000098526/mujoco/1000098526.xml",
+ "timestep": 0.002,
+ "nbody": 15,
+ "free_bodies": [
+  "black_camera_rig_0",
+  "black_camera_stand_0",
+  "black_mesh_office_chair_0",
+  "black_power_adapter_0",
+  "black_thermos_bottle_0",
+  "blue_ball_0",
+  "framed_photo_1_0",
+  "framed_photo_2_0",
+  "framed_photo_3_0",
+  "green_ball_0",
+  "green_hand_sanitizer_bottle_0",
+  "white_robotic_arm_model_0",
+  "wooden_desk_0",
+  "yellow_screwdriver_0"
+ ],
+ "static_bodies": [],
+ "masses_kg": {
+  "wooden_desk_0": 5.1435,
+  "black_mesh_office_chair_0": 9.2079,
+  "black_camera_rig_0": 0.1141,
+  "blue_ball_0": 0.0024,
+  "green_hand_sanitizer_bottle_0": 0.0021,
+  "yellow_screwdriver_0": 0.0014,
+  "white_robotic_arm_model_0": 0.0844,
+  "green_ball_0": 0.0066,
+  "black_camera_stand_0": 0.0638,
+  "black_thermos_bottle_0": 0.0365,
+  "framed_photo_1_0": 0.0782,
+  "framed_photo_2_0": 0.019,
+  "framed_photo_3_0": 0.0867,
+  "black_power_adapter_0": 0.0044
+ },
+ "damping_nonzero": false,
+ "gravity": [
+  0.0,
+  0.0,
+  -9.81
+ ],
+ "windows_s": [
+  1.5,
+  3.0,
+  5.0,
+  10.0,
+  30.0
+ ],
+ "diverged": {
+  "time_s": 9.454,
+  "warning": "mjWARN_BADQACC",
+  "dof": 54,
+  "body": "black_thermos_bottle_0"
+ },
+ "escaped": {},
+ "measurements": {
+  "1.5": {
+   "valid": true,
+   "bodies": {
+    "wooden_desk_0": {
+     "drift_cm": 0.26,
+     "tilt_deg": 0.2
+    },
+    "black_mesh_office_chair_0": {
+     "drift_cm": 0.22,
+     "tilt_deg": 0.2
+    },
+    "black_camera_rig_0": {
+     "drift_cm": 16.27,
+     "tilt_deg": 74.4
+    },
+    "blue_ball_0": {
+     "drift_cm": 1.73,
+     "tilt_deg": 18.6
+    },
+    "green_hand_sanitizer_bottle_0": {
+     "drift_cm": 7.03,
+     "tilt_deg": 95.0
+    },
+    "yellow_screwdriver_0": {
+     "drift_cm": 3.5,
+     "tilt_deg": 2.1
+    },
+    "white_robotic_arm_model_0": {
+     "drift_cm": 10.02,
+     "tilt_deg": 62.1
+    },
+    "green_ball_0": {
+     "drift_cm": 4.02,
+     "tilt_deg": 12.0
+    },
+    "black_camera_stand_0": {
+     "drift_cm": 4.14,
+     "tilt_deg": 2.1
+    },
+    "black_thermos_bottle_0": {
+     "drift_cm": 2.96,
+     "tilt_deg": 1.1
+    },
+    "framed_photo_1_0": {
+     "drift_cm": 5.01,
+     "tilt_deg": 33.7
+    },
+    "framed_photo_2_0": {
+     "drift_cm": 4.61,
+     "tilt_deg": 38.1
+    },
+    "framed_photo_3_0": {
+     "drift_cm": 5.1,
+     "tilt_deg": 17.3
+    },
+    "black_power_adapter_0": {
+     "drift_cm": 4.33,
+     "tilt_deg": 11.6
+    }
+   }
+  },
+  "3.0": {
+   "valid": true,
+   "bodies": {
+    "wooden_desk_0": {
+     "drift_cm": 0.41,
+     "tilt_deg": 0.4
+    },
+    "black_mesh_office_chair_0": {
+     "drift_cm": 0.35,
+     "tilt_deg": 0.4
+    },
+    "black_camera_rig_0": {
+     "drift_cm": 16.27,
+     "tilt_deg": 74.4
+    },
+    "blue_ball_0": {
+     "drift_cm": 1.78,
+     "tilt_deg": 25.2
+    },
+    "green_hand_sanitizer_bottle_0": {
+     "drift_cm": 7.01,
+     "tilt_deg": 94.9
+    },
+    "yellow_screwdriver_0": {
+     "drift_cm": 3.5,
+     "tilt_deg": 2.2
+    },
+    "white_robotic_arm_model_0": {
+     "drift_cm": 10.02,
+     "tilt_deg": 62.1
+    },
+    "green_ball_0": {
+     "drift_cm": 7.68,
+     "tilt_deg": 2.6
+    },
+    "black_camera_stand_0": {
+     "drift_cm": 5.92,
+     "tilt_deg": 2.2
+    },
+    "black_thermos_bottle_0": {
+     "drift_cm": 3.81,
+     "tilt_deg": 1.2
+    },
+    "framed_photo_1_0": {
+     "drift_cm": 5.01,
+     "tilt_deg": 33.8
+    },
+    "framed_photo_2_0": {
+     "drift_cm": 4.61,
+     "tilt_deg": 38.1
+    },
+    "framed_photo_3_0": {
+     "drift_cm": 5.1,
+     "tilt_deg": 17.3
+    },
+    "black_power_adapter_0": {
+     "drift_cm": 4.53,
+     "tilt_deg": 16.3
+    }
+   }
+  },
+  "5.0": {
+   "valid": true,
+   "bodies": {
+    "wooden_desk_0": {
+     "drift_cm": 0.69,
+     "tilt_deg": 0.6
+    },
+    "black_mesh_office_chair_0": {
+     "drift_cm": 0.61,
+     "tilt_deg": 0.6
+    },
+    "black_camera_rig_0": {
+     "drift_cm": 16.27,
+     "tilt_deg": 74.4
+    },
+    "blue_ball_0": {
+     "drift_cm": 2.02,
+     "tilt_deg": 33.8
+    },
+    "green_hand_sanitizer_bottle_0": {
+     "drift_cm": 6.99,
+     "tilt_deg": 94.9
+    },
+    "yellow_screwdriver_0": {
+     "drift_cm": 3.5,
+     "tilt_deg": 2.2
+    },
+    "white_robotic_arm_model_0": {
+     "drift_cm": 10.02,
+     "tilt_deg": 62.1
+    },
+    "green_ball_0": {
+     "drift_cm": 10.16,
+     "tilt_deg": 16.2
+    },
+    "black_camera_stand_0": {
+     "drift_cm": 7.9,
+     "tilt_deg": 3.2
+    },
+    "black_thermos_bottle_0": {
+     "drift_cm": 4.84,
+     "tilt_deg": 19.6
+    },
+    "framed_photo_1_0": {
+     "drift_cm": 5.01,
+     "tilt_deg": 33.8
+    },
+    "framed_photo_2_0": {
+     "drift_cm": 4.61,
+     "tilt_deg": 38.1
+    },
+    "framed_photo_3_0": {
+     "drift_cm": 5.1,
+     "tilt_deg": 17.3
+    },
+    "black_power_adapter_0": {
+     "drift_cm": 4.92,
+     "tilt_deg": 24.5
+    }
+   }
+  },
+  "10.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "30.0": {
+   "valid": false,
+   "bodies": null
+  }
+ },
+ "label": "lens_526"
+}

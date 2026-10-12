@@ -1,0 +1,38 @@
+[
+ {
+  "exp": "f0_control_stock",
+  "diverged": {
+   "t": 1.136,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "f1_cup_300g",
+  "cup_mass": 0.304,
+  "diverged": null
+ },
+ {
+  "exp": "f2_desk_15kg",
+  "desk_mass": 15.18,
+  "diverged": {
+   "t": 8.148,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "f3_depenetrated_stock_masses",
+  "depen": {},
+  "resolved": true,
+  "diverged": {
+   "t": 0.002,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "f4_dt_0.001",
+  "diverged": null
+ }
+]

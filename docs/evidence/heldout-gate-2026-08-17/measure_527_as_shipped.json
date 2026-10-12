@@ -1,0 +1,73 @@
+{
+ "xml": "<repo>/<run dir>/heldout_20260813/lens_1000098527/mujoco/1000098527.xml",
+ "timestep": 0.002,
+ "nbody": 11,
+ "free_bodies": [
+  "black_glove_0",
+  "blue_acrylic_award_0",
+  "green_and_white_webcam_stand_box_0",
+  "large_brown_cardboard_box_1_0",
+  "medium_brown_cardboard_box_2_0",
+  "pink_paper_packet_0",
+  "small_brown_cardboard_box_3_0",
+  "white_ceramic_mug_0",
+  "wood_and_metal_shelving_unit_0",
+  "yellow_toy_robot_0"
+ ],
+ "static_bodies": [],
+ "masses_kg": {
+  "wood_and_metal_shelving_unit_0": 37.1611,
+  "blue_acrylic_award_0": 0.0089,
+  "black_glove_0": 0.138,
+  "white_ceramic_mug_0": 0.0441,
+  "yellow_toy_robot_0": 0.1267,
+  "pink_paper_packet_0": 0.005,
+  "large_brown_cardboard_box_1_0": 0.816,
+  "medium_brown_cardboard_box_2_0": 0.2542,
+  "small_brown_cardboard_box_3_0": 0.3652,
+  "green_and_white_webcam_stand_box_0": 0.0659
+ },
+ "damping_nonzero": false,
+ "gravity": [
+  0.0,
+  0.0,
+  -9.81
+ ],
+ "windows_s": [
+  1.5,
+  3.0,
+  5.0,
+  10.0,
+  30.0
+ ],
+ "diverged": {
+  "time_s": 0.464,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "yellow_toy_robot_0"
+ },
+ "escaped": {},
+ "measurements": {
+  "1.5": {
+   "valid": false,
+   "bodies": null
+  },
+  "3.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "5.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "10.0": {
+   "valid": false,
+   "bodies": null
+  },
+  "30.0": {
+   "valid": false,
+   "bodies": null
+  }
+ },
+ "label": "lens_527"
+}

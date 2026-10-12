@@ -1,0 +1,95 @@
+{
+ "xml": "<run dir>/528/mujoco/528.xml",
+ "nbody": 8,
+ "ngeom": 57,
+ "bodies": {
+  "grey_and_green_armchair_0": {
+   "min_half_thickness_cm": 0.16,
+   "max_extent_cm": 35.9,
+   "n_hulls": 8,
+   "mass_kg": 2.317
+  },
+  "yellow_and_grey_sofa_1_0": {
+   "min_half_thickness_cm": 0.43,
+   "max_extent_cm": 64.4,
+   "n_hulls": 7,
+   "mass_kg": 7.039
+  },
+  "yellow_and_grey_sofa_2_0": {
+   "min_half_thickness_cm": 0.71,
+   "max_extent_cm": 60.7,
+   "n_hulls": 8,
+   "mass_kg": 6.55
+  },
+  "round_coffee_table_0": {
+   "min_half_thickness_cm": 0.68,
+   "max_extent_cm": 26.3,
+   "n_hulls": 4,
+   "mass_kg": 0.188
+  },
+  "grey_armchair_0": {
+   "min_half_thickness_cm": 0.6,
+   "max_extent_cm": 59.7,
+   "n_hulls": 8,
+   "mass_kg": 7.068
+  },
+  "small_whiteboard_0": {
+   "min_half_thickness_cm": 0.53,
+   "max_extent_cm": 81.4,
+   "n_hulls": 4,
+   "mass_kg": 1.198
+  },
+  "large_whiteboard_0": {
+   "min_half_thickness_cm": 0.06,
+   "max_extent_cm": 34.0,
+   "n_hulls": 10,
+   "mass_kg": 0.131
+  }
+ },
+ "n_thin_bodies": 7,
+ "n_small_bodies": 0,
+ "spawn_penetrations_mm": {
+  "small_whiteboard_0 | world": 0.2,
+  "world | yellow_and_grey_sofa_2_0": 0.2,
+  "grey_and_green_armchair_0 | world": 0.2,
+  "large_whiteboard_0 | world": 0.2,
+  "grey_armchair_0 | world": 0.2,
+  "world | yellow_and_grey_sofa_1_0": 0.1,
+  "round_coffee_table_0 | world": 0.1
+ },
+ "spawn_worst_pen_mm": 0.2,
+ "diverged": null,
+ "late_jitter_sum_qvel": 0.0219,
+ "state_at_s": 10.0,
+ "final": {
+  "grey_and_green_armchair_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "yellow_and_grey_sofa_1_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "yellow_and_grey_sofa_2_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "round_coffee_table_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "grey_armchair_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "small_whiteboard_0": {
+   "drift_cm": 0.1,
+   "tilt_deg": 0.0
+  },
+  "large_whiteboard_0": {
+   "drift_cm": 0.1,
+   "tilt_deg": 0.1
+  }
+ },
+ "n_toppled_gt30deg": 0
+}

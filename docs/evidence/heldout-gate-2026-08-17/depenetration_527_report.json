@@ -1,0 +1,45 @@
+{
+ "xml_in": "<repo>/<run dir>/heldout_20260813/lens_1000098527/mujoco/1000098527.xml",
+ "xml_out": "<scratch>/dep2/lens_527_dep.xml",
+ "spawn_worst_body_pen_before_mm": 44.2,
+ "spawn_worst_body_pen_after_mm": 1.4,
+ "resolved": true,
+ "iterations": 31,
+ "displacements_cm": {
+  "green_and_white_webcam_stand_box_0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "large_brown_cardboard_box_1_0": [
+   0.0,
+   -0.0,
+   4.5
+  ],
+  "white_ceramic_mug_0": [
+   0.0,
+   -0.0,
+   2.5
+  ],
+  "blue_acrylic_award_0": [
+   -0.0,
+   -0.0,
+   2.5
+  ],
+  "medium_brown_cardboard_box_2_0": [
+   0.0,
+   2.0,
+   0.0
+  ],
+  "black_glove_0": [
+   -0.0,
+   -0.0,
+   2.0
+  ],
+  "yellow_toy_robot_0": [
+   -0.0,
+   -0.0,
+   2.0
+  ]
+ }
+}

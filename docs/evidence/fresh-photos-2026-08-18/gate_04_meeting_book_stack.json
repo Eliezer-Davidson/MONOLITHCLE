@@ -1,0 +1,47 @@
+{
+ "verdict": "WARN",
+ "reasons": [
+  "topple: body 'large_green_painting_0' tilted 60.7\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'small_framed_photo_0' tilted 65.2\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'small_blue_bowl_0' tilted 71.0\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'stack_of_books_2_0' tilted 53.3\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'grey_framed_artwork_0' tilted 65.9\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'black_framed_certificate_0' tilted 88.7\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'stack_of_white_books_0' tilted 163.0\u00b0 (> 30\u00b0) vs spawn",
+  "late jitter 1.933 sum|qvel| > 1.0 over the final second"
+ ],
+ "worst_penetration_mm": 1.7,
+ "residual_penetrations_mm": {
+  "stack_of_books_2_0 | world": 1.7,
+  "small_framed_photo_0 | world": 1.1,
+  "large_green_painting_0 | small_framed_photo_0": 0.5,
+  "stack_of_white_books_0 | world": 0.2,
+  "potted_palm_plant_0 | world": 0.2,
+  "small_blue_figurine_0 | world": 0.2,
+  "white_round_table_0 | world": 0.2,
+  "wooden_sideboard_0 | world": 0.2,
+  "white_office_chair_0 | world": 0.1,
+  "large_green_painting_0 | world": 0.1,
+  "dark_blue_notebook_0 | world": 0.1,
+  "white_paper_rolls_0 | world": 0.1,
+  "grey_framed_artwork_0 | world": 0.1,
+  "small_blue_bowl_0 | world": 0.0,
+  "black_framed_certificate_0 | wooden_sideboard_0": 0.0,
+  "stack_of_books_1_0 | wooden_sideboard_0": 0.0,
+  "red_notebook_0 | white_round_table_0": 0.0,
+  "white_office_chair_0 | white_round_table_0": 0.0
+ },
+ "escapes": {},
+ "topples": {
+  "large_green_painting_0": 60.7,
+  "small_framed_photo_0": 65.2,
+  "small_blue_bowl_0": 71.0,
+  "stack_of_books_2_0": 53.3,
+  "grey_framed_artwork_0": 65.9,
+  "black_framed_certificate_0": 88.7,
+  "stack_of_white_books_0": 163.0
+ },
+ "late_jitter": 1.9329,
+ "settled_s": 30.0,
+ "diverged": null
+}

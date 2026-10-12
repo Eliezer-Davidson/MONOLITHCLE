@@ -1,0 +1,185 @@
+{
+ "xml": "<run dir>/lens_office_lounge/mujoco/office_lounge.xml",
+ "timestep": 0.002,
+ "nbody": 7,
+ "free_bodies": [
+  "black_backpack_0",
+  "black_laptop_1_0",
+  "black_thermos_0",
+  "blue_and_black_laptop_2_0",
+  "grey_and_yellow_bench_0",
+  "white_round_table_0"
+ ],
+ "static_bodies": [],
+ "masses_kg": {
+  "grey_and_yellow_bench_0": 18.2234,
+  "white_round_table_0": 1.6048,
+  "black_laptop_1_0": 0.2628,
+  "black_backpack_0": 1.5259,
+  "blue_and_black_laptop_2_0": 0.1806,
+  "black_thermos_0": 0.027
+ },
+ "damping_nonzero": false,
+ "gravity": [
+  0.0,
+  0.0,
+  -9.81
+ ],
+ "windows_s": [
+  1.5,
+  3.0,
+  5.0,
+  10.0,
+  30.0
+ ],
+ "diverged": null,
+ "escaped": {},
+ "measurements": {
+  "1.5": {
+   "valid": true,
+   "bodies": {
+    "grey_and_yellow_bench_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "white_round_table_0": {
+     "drift_cm": 0.2,
+     "tilt_deg": 0.3
+    },
+    "black_laptop_1_0": {
+     "drift_cm": 14.67,
+     "tilt_deg": 5.9
+    },
+    "black_backpack_0": {
+     "drift_cm": 2.9,
+     "tilt_deg": 7.9
+    },
+    "blue_and_black_laptop_2_0": {
+     "drift_cm": 6.7,
+     "tilt_deg": 21.3
+    },
+    "black_thermos_0": {
+     "drift_cm": 1.1,
+     "tilt_deg": 1.2
+    }
+   }
+  },
+  "3.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_yellow_bench_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "white_round_table_0": {
+     "drift_cm": 0.12,
+     "tilt_deg": 0.5
+    },
+    "black_laptop_1_0": {
+     "drift_cm": 14.67,
+     "tilt_deg": 5.9
+    },
+    "black_backpack_0": {
+     "drift_cm": 2.59,
+     "tilt_deg": 6.4
+    },
+    "blue_and_black_laptop_2_0": {
+     "drift_cm": 6.74,
+     "tilt_deg": 21.4
+    },
+    "black_thermos_0": {
+     "drift_cm": 1.23,
+     "tilt_deg": 0.9
+    }
+   }
+  },
+  "5.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_yellow_bench_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "white_round_table_0": {
+     "drift_cm": 0.26,
+     "tilt_deg": 0.6
+    },
+    "black_laptop_1_0": {
+     "drift_cm": 14.67,
+     "tilt_deg": 5.9
+    },
+    "black_backpack_0": {
+     "drift_cm": 2.59,
+     "tilt_deg": 6.4
+    },
+    "blue_and_black_laptop_2_0": {
+     "drift_cm": 7.17,
+     "tilt_deg": 21.4
+    },
+    "black_thermos_0": {
+     "drift_cm": 1.63,
+     "tilt_deg": 2.4
+    }
+   }
+  },
+  "10.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_yellow_bench_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "white_round_table_0": {
+     "drift_cm": 0.52,
+     "tilt_deg": 1.3
+    },
+    "black_laptop_1_0": {
+     "drift_cm": 14.67,
+     "tilt_deg": 5.9
+    },
+    "black_backpack_0": {
+     "drift_cm": 2.59,
+     "tilt_deg": 6.4
+    },
+    "blue_and_black_laptop_2_0": {
+     "drift_cm": 7.22,
+     "tilt_deg": 21.2
+    },
+    "black_thermos_0": {
+     "drift_cm": 2.03,
+     "tilt_deg": 7.7
+    }
+   }
+  },
+  "30.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_yellow_bench_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "white_round_table_0": {
+     "drift_cm": 2.35,
+     "tilt_deg": 5.6
+    },
+    "black_laptop_1_0": {
+     "drift_cm": 14.67,
+     "tilt_deg": 5.9
+    },
+    "black_backpack_0": {
+     "drift_cm": 2.59,
+     "tilt_deg": 6.4
+    },
+    "blue_and_black_laptop_2_0": {
+     "drift_cm": 7.17,
+     "tilt_deg": 20.6
+    },
+    "black_thermos_0": {
+     "drift_cm": 2.1,
+     "tilt_deg": 31.2
+    }
+   }
+  }
+ },
+ "label": "office_lounge_30s_baseline"
+}

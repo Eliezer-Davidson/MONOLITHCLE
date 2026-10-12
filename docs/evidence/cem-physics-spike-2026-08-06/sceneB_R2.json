@@ -1,0 +1,101 @@
+{
+ "label": "scene B R2 realmass+damp",
+ "regime": {
+  "LENS_SPIKE_MAX_WORKERS": "8",
+  "LENS_SPIKE_REUSE_COLLISION": "1",
+  "LENS_SPIKE_REAL_MASS": "1"
+ },
+ "dt_min": 2.97,
+ "integrity": "STALE ['blue_book_0_visual.obj', 'brown_sofa_0_visual.obj', 'grey_television_0_visual.obj', 'pink_and_blue_rug_0_visual.obj', 'purple_end_table_0_visual.obj']",
+ "xml": "<run dir>/spike_sceneB_R2/mujoco/sceneB.xml",
+ "com0_pos": {
+  "brown_sofa_0": [
+   -0.0955,
+   -2.53,
+   0.2484
+  ],
+  "purple_end_table_0": [
+   0.7287,
+   -2.2788,
+   0.1148
+  ],
+  "purple_table_lamp_0": [
+   0.8637,
+   -2.2594,
+   0.5226
+  ],
+  "teal_telephone_0": [
+   0.684,
+   -2.2558,
+   0.3106
+  ],
+  "red_book_0": [
+   0.7781,
+   -2.1328,
+   0.2867
+  ],
+  "blue_book_0": [
+   0.6393,
+   -2.1212,
+   0.3043
+  ],
+  "yellow_book_0": [
+   0.6004,
+   -2.1371,
+   0.3133
+  ],
+  "purple_floor_lamp_0": [
+   -0.6037,
+   -2.625,
+   0.5326
+  ],
+  "pink_and_blue_rug_0": [
+   -0.0636,
+   -1.7946,
+   0.0063
+  ],
+  "grey_television_0": [
+   -0.1579,
+   -0.6112,
+   0.0474
+  ]
+ },
+ "drift_cm": {
+  "1.5": {
+   "brown_sofa_0": 0.0,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.61,
+   "teal_telephone_0": 0.54,
+   "red_book_0": 0.59,
+   "blue_book_0": 0.53,
+   "yellow_book_0": 0.52,
+   "purple_floor_lamp_0": 19.1,
+   "pink_and_blue_rug_0": 0.11,
+   "grey_television_0": 0.0
+  },
+  "3.0": {
+   "brown_sofa_0": 0.01,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.62,
+   "teal_telephone_0": 0.55,
+   "red_book_0": 0.59,
+   "blue_book_0": 0.53,
+   "yellow_book_0": 0.52,
+   "purple_floor_lamp_0": 17.29,
+   "pink_and_blue_rug_0": 0.21,
+   "grey_television_0": 0.0
+  },
+  "5.0": {
+   "brown_sofa_0": 0.01,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.62,
+   "teal_telephone_0": 0.55,
+   "red_book_0": 0.59,
+   "blue_book_0": 0.54,
+   "yellow_book_0": 0.52,
+   "purple_floor_lamp_0": 17.42,
+   "pink_and_blue_rug_0": 0.35,
+   "grey_television_0": 0.0
+  }
+ }
+}

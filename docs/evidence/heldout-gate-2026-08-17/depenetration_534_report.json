@@ -1,0 +1,15 @@
+{
+ "xml_in": "<repo>/<run dir>/heldout_20260813/lens_1000098534/mujoco/1000098534.xml",
+ "xml_out": "<scratch>/dep2/lens_534_dep.xml",
+ "spawn_worst_body_pen_before_mm": 8.7,
+ "spawn_worst_body_pen_after_mm": 0.0,
+ "resolved": true,
+ "iterations": 2,
+ "displacements_cm": {
+  "black_microscope_0": [
+   -0.0,
+   0.0,
+   1.0
+  ]
+ }
+}

@@ -1,0 +1,335 @@
+{
+ "a_hull_inflation": {
+  "wood_and_metal_shelving_unit_0": {
+   "n_hulls": 16,
+   "visual_extent_cm": [
+    107.6,
+    28.8,
+    92.3
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.1,
+    -0.1,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 185.805,
+   "visual_convexhull_vol_dm3": 282.562
+  },
+  "blue_acrylic_award_0": {
+   "n_hulls": 16,
+   "visual_extent_cm": [
+    6.2,
+    3.8,
+    11.5
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 0.045,
+   "visual_convexhull_vol_dm3": 0.133
+  },
+  "black_glove_0": {
+   "n_hulls": 16,
+   "visual_extent_cm": [
+    25.1,
+    15.6,
+    4.4
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.1,
+    -0.0,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 0.69,
+   "visual_convexhull_vol_dm3": 1.011
+  },
+  "white_ceramic_mug_0": {
+   "n_hulls": 16,
+   "visual_extent_cm": [
+    11.0,
+    7.3,
+    10.8
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    0.5,
+    0.5,
+    0.6
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "hull_vol_sum_dm3": 0.221,
+   "visual_convexhull_vol_dm3": 0.506
+  },
+  "yellow_toy_robot_0": {
+   "n_hulls": 16,
+   "visual_extent_cm": [
+    17.8,
+    10.7,
+    8.3
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    0.8,
+    0.9,
+    0.8
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    0.8,
+    0.9,
+    0.8
+   ],
+   "hull_vol_sum_dm3": 0.633,
+   "visual_convexhull_vol_dm3": 1.007
+  },
+  "pink_paper_packet_0": {
+   "n_hulls": 7,
+   "visual_extent_cm": [
+    5.1,
+    15.6,
+    0.6
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hull_vol_sum_dm3": 0.025,
+   "visual_convexhull_vol_dm3": 0.036
+  },
+  "large_brown_cardboard_box_1_0": {
+   "n_hulls": 8,
+   "visual_extent_cm": [
+    32.4,
+    30.9,
+    11.2
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    1.6,
+    1.6,
+    1.7
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    1.7,
+    1.7,
+    1.7
+   ],
+   "hull_vol_sum_dm3": 4.08,
+   "visual_convexhull_vol_dm3": 10.145
+  },
+  "medium_brown_cardboard_box_2_0": {
+   "n_hulls": 8,
+   "visual_extent_cm": [
+    20.7,
+    29.5,
+    11.2
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.1,
+    -0.0,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 1.271,
+   "visual_convexhull_vol_dm3": 4.457
+  },
+  "small_brown_cardboard_box_3_0": {
+   "n_hulls": 8,
+   "visual_extent_cm": [
+    21.3,
+    20.4,
+    13.4
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 1.826,
+   "visual_convexhull_vol_dm3": 4.899
+  },
+  "green_and_white_webcam_stand_box_0": {
+   "n_hulls": 8,
+   "visual_extent_cm": [
+    13.1,
+    19.4,
+    4.5
+   ],
+   "hull_overhang_mm_lo_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_overhang_mm_hi_xyz": [
+    -0.0,
+    -0.0,
+    -0.0
+   ],
+   "hull_vol_sum_dm3": 0.33,
+   "visual_convexhull_vol_dm3": 1.055
+  }
+ },
+ "b_gate_vs_ship": {
+  "shipped": {
+   "ngeom_total": 130,
+   "ngeom_collision": 120,
+   "n_visual": 10,
+   "masses_kg": {
+    "wood_and_metal_shelving_unit_0": 37.1611,
+    "blue_acrylic_award_0": 0.0089,
+    "black_glove_0": 0.138,
+    "white_ceramic_mug_0": 0.0441,
+    "yellow_toy_robot_0": 0.1267,
+    "pink_paper_packet_0": 0.005,
+    "large_brown_cardboard_box_1_0": 0.816,
+    "medium_brown_cardboard_box_2_0": 0.2542,
+    "small_brown_cardboard_box_3_0": 0.3652,
+    "green_and_white_webcam_stand_box_0": 0.0659
+   },
+   "max_dof_damping": 0.0,
+   "collision_geom_friction0": [
+    0.5,
+    0.9
+   ]
+  },
+  "scoring_as_loaded": {
+   "ngeom_total": 120,
+   "ngeom_collision": 120,
+   "n_visual": 0,
+   "masses_kg": {
+    "wood_and_metal_shelving_unit_0": 37.1611,
+    "blue_acrylic_award_0": 0.0089,
+    "black_glove_0": 0.138,
+    "white_ceramic_mug_0": 0.0441,
+    "yellow_toy_robot_0": 0.1267,
+    "pink_paper_packet_0": 0.005,
+    "large_brown_cardboard_box_1_0": 0.816,
+    "medium_brown_cardboard_box_2_0": 0.2542,
+    "small_brown_cardboard_box_3_0": 0.3652,
+    "green_and_white_webcam_stand_box_0": 0.0659
+   },
+   "max_dof_damping": 0.0,
+   "collision_geom_friction0": [
+    0.5,
+    0.9
+   ]
+  },
+  "scoring_as_the_CEM_actually_runs_it_(configure_physics)": {
+   "ngeom_total": 120,
+   "ngeom_collision": 120,
+   "n_visual": 0,
+   "masses_kg": {
+    "wood_and_metal_shelving_unit_0": 1.0,
+    "blue_acrylic_award_0": 1.0,
+    "black_glove_0": 1.0,
+    "white_ceramic_mug_0": 1.0,
+    "yellow_toy_robot_0": 1.0,
+    "pink_paper_packet_0": 1.0,
+    "large_brown_cardboard_box_1_0": 1.0,
+    "medium_brown_cardboard_box_2_0": 1.0,
+    "small_brown_cardboard_box_3_0": 1.0,
+    "green_and_white_webcam_stand_box_0": 1.0
+   },
+   "max_dof_damping": 0.3,
+   "collision_geom_friction0": [
+    0.5,
+    0.9
+   ]
+  },
+  "collision_geom_count_equal": true,
+  "masses_equal_as_loaded": true
+ },
+ "c_support_rule": {
+  "shelving_unit_global_top_cm": 92.3,
+  "children": {
+   "blue_acrylic_award_0": {
+    "parent": "wood_and_metal_shelving_unit_0",
+    "parent_global_top_z_cm": 92.3,
+    "child_bottom_z_cm": 92.8,
+    "child_top_z_cm": 104.2,
+    "ground_offset_z_cm": 76.8
+   },
+   "black_glove_0": {
+    "parent": "wood_and_metal_shelving_unit_0",
+    "parent_global_top_z_cm": 92.3,
+    "child_bottom_z_cm": 92.8,
+    "child_top_z_cm": 97.2,
+    "ground_offset_z_cm": 100.2
+   },
+   "white_ceramic_mug_0": {
+    "parent": "wood_and_metal_shelving_unit_0",
+    "parent_global_top_z_cm": 92.3,
+    "child_bottom_z_cm": 92.8,
+    "child_top_z_cm": 103.6,
+    "ground_offset_z_cm": 99.7
+   },
+   "yellow_toy_robot_0": {
+    "parent": "wood_and_metal_shelving_unit_0",
+    "parent_global_top_z_cm": 92.3,
+    "child_bottom_z_cm": 92.8,
+    "child_top_z_cm": 101.0,
+    "ground_offset_z_cm": 124.1
+   },
+   "pink_paper_packet_0": {
+    "parent": "wood_and_metal_shelving_unit_0",
+    "parent_global_top_z_cm": 92.3,
+    "child_bottom_z_cm": 92.8,
+    "child_top_z_cm": 93.4,
+    "ground_offset_z_cm": 124.3
+   },
+   "medium_brown_cardboard_box_2_0": {
+    "parent": "large_brown_cardboard_box_1_0",
+    "parent_global_top_z_cm": 11.2,
+    "child_bottom_z_cm": 11.7,
+    "child_top_z_cm": 22.9,
+    "ground_offset_z_cm": 98.4
+   },
+   "small_brown_cardboard_box_3_0": {
+    "parent": "medium_brown_cardboard_box_2_0",
+    "parent_global_top_z_cm": 22.9,
+    "child_bottom_z_cm": 23.4,
+    "child_top_z_cm": 36.7,
+    "ground_offset_z_cm": 79.8
+   },
+   "green_and_white_webcam_stand_box_0": {
+    "parent": "medium_brown_cardboard_box_2_0",
+    "parent_global_top_z_cm": 22.9,
+    "child_bottom_z_cm": 23.4,
+    "child_top_z_cm": 27.8,
+    "ground_offset_z_cm": 80.5
+   }
+  }
+ }
+}

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monolithcle"
+version = "0.1.0"
+description = "One photograph in, a physics-valid MuJoCo/USD scene out (package and CLI: lens)"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+# Runtime dependencies of the scene-assembly half of the pipeline: everything
+# from gravity-align through stabilisation to MJCF export. Tested on Python 3.12
+# / Linux.
+dependencies = [
+  "mujoco>=3.1",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "trimesh>=4.0",
+  # trimesh's spatial index, needed by the depth-lift backend's surface
+  # queries; trimesh imports it lazily and only fails at call time without it.
+  "rtree>=1.0",
+  "pillow>=10.0",
+  "open3d>=0.18",
+  "coacd>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+# USD export. `write_scene` prefers an in-process `pxr`; without one it shells
+# out to the interpreter named by LENS_PXR_PYTHON.
+usd = ["usd-core>=23.11"]
+# The photo-to-objects half. `gemini` reaches Google's API over the network.
+gemini = ["google-genai>=1.0"]
+# The CPU reconstruction tier (monocular depth lift).
+cpu-recon = ["torch>=2.2", "huggingface_hub>=0.23"]
+# The GPU reconstruction tier is NOT resolvable from PyPI: Meta's SAM 3 and
+# SAM-3D-Objects are gated releases that must be obtained and installed
+# separately. See THIRD_PARTY_NOTICES.md.
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lens*", "tests*"]
+
+[project.scripts]
+lens = "lens.cli:main"
+
+[tool.pytest.ini_options]
+markers = [
+  "gpu: needs CUDA + model weights (deselect with -m 'not gpu')",
+  "api: needs GEMINI_API_KEY + network",
+]
+addopts = "-m 'not gpu and not api'"

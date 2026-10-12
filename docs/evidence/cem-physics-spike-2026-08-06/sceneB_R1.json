@@ -1,0 +1,102 @@
+{
+ "label": "scene B R1",
+ "regime": {
+  "LENS_SPIKE_MAX_WORKERS": "8",
+  "LENS_SPIKE_REUSE_COLLISION": "1",
+  "LENS_SPIKE_REAL_MASS": "1",
+  "LENS_SPIKE_NO_DAMPING": "1"
+ },
+ "dt_min": 2.97,
+ "integrity": "STALE ['blue_book_0_visual.obj', 'brown_sofa_0_visual.obj', 'grey_television_0_visual.obj', 'pink_and_blue_rug_0_visual.obj', 'purple_end_table_0_visual.obj']",
+ "xml": "<run dir>/spike_sceneB_R1/mujoco/sceneB.xml",
+ "com0_pos": {
+  "brown_sofa_0": [
+   -0.0812,
+   -2.5307,
+   0.2484
+  ],
+  "purple_end_table_0": [
+   0.7535,
+   -2.2969,
+   0.1148
+  ],
+  "purple_table_lamp_0": [
+   0.8676,
+   -2.2677,
+   0.523
+  ],
+  "teal_telephone_0": [
+   0.6677,
+   -2.3138,
+   0.3109
+  ],
+  "red_book_0": [
+   0.7534,
+   -2.1754,
+   0.2872
+  ],
+  "blue_book_0": [
+   0.6476,
+   -2.1444,
+   0.3043
+  ],
+  "yellow_book_0": [
+   0.635,
+   -2.1721,
+   0.313
+  ],
+  "purple_floor_lamp_0": [
+   -0.5343,
+   -2.5428,
+   0.469
+  ],
+  "pink_and_blue_rug_0": [
+   -0.0656,
+   -1.7924,
+   0.0061
+  ],
+  "grey_television_0": [
+   -0.163,
+   -0.6031,
+   0.0474
+  ]
+ },
+ "drift_cm": {
+  "1.5": {
+   "brown_sofa_0": 0.0,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.58,
+   "teal_telephone_0": 0.53,
+   "red_book_0": 0.56,
+   "blue_book_0": 0.54,
+   "yellow_book_0": 0.53,
+   "purple_floor_lamp_0": 7.06,
+   "pink_and_blue_rug_0": 0.1,
+   "grey_television_0": 0.0
+  },
+  "3.0": {
+   "brown_sofa_0": 0.0,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.59,
+   "teal_telephone_0": 0.53,
+   "red_book_0": 0.56,
+   "blue_book_0": 0.54,
+   "yellow_book_0": 0.53,
+   "purple_floor_lamp_0": 7.12,
+   "pink_and_blue_rug_0": 0.21,
+   "grey_television_0": 0.0
+  },
+  "5.0": {
+   "brown_sofa_0": 0.01,
+   "purple_end_table_0": 0.05,
+   "purple_table_lamp_0": 0.59,
+   "teal_telephone_0": 0.53,
+   "red_book_0": 0.56,
+   "blue_book_0": 0.54,
+   "yellow_book_0": 0.53,
+   "purple_floor_lamp_0": 7.16,
+   "pink_and_blue_rug_0": 0.29,
+   "grey_television_0": 0.0
+  }
+ }
+}

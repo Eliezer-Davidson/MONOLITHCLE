@@ -1,0 +1,13 @@
+All rights reserved. No licence is granted.
+
+Beyond the rights GitHub's Terms of Service grant to visitors of a public
+repository, you may not copy, modify, distribute, sublicense, publish, create
+derivative works from, or train machine-learning models on any part of this
+repository without prior written permission.
+
+THIRD-PARTY COMPONENTS
+
+This repository calls external libraries, model weights and network services
+that remain the property of their respective owners and are governed by their
+own licences, which this notice does not supersede. See THIRD_PARTY_NOTICES.md
+for the list and third_party_licenses/ for the licence texts carried here.
