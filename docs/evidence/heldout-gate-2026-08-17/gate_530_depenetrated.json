@@ -1,0 +1,31 @@
+{
+ "verdict": "FAIL",
+ "reasons": [
+  "escape: body 'black_thermos_cup_0' is 36.44 m from spawn (> 5 m)",
+  "topple: body 'left_white_desk_0' tilted 89.0\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'black_open_laptop_0' tilted 78.4\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'black_thermos_cup_0' tilted 154.2\u00b0 (> 30\u00b0) vs spawn"
+ ],
+ "worst_penetration_mm": 1.9,
+ "residual_penetrations_mm": {
+  "black_computer_mouse_0 | world": 1.9,
+  "black_backpack_0 | black_computer_mouse_0": 0.6,
+  "coiled_black_cable_0 | world": 0.2,
+  "black_office_chair_0 | world": 0.2,
+  "coiled_black_cable_0 | right_white_desk_0": 0.1,
+  "right_white_desk_0 | world": 0.1,
+  "black_closed_laptop_0 | world": 0.1,
+  "black_backpack_0 | world": 0.0
+ },
+ "escapes": {
+  "black_thermos_cup_0": 36.44
+ },
+ "topples": {
+  "left_white_desk_0": 89.0,
+  "black_open_laptop_0": 78.4,
+  "black_thermos_cup_0": 154.2
+ },
+ "late_jitter": null,
+ "settled_s": 2.0,
+ "diverged": null
+}

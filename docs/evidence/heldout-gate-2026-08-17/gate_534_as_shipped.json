@@ -1,0 +1,23 @@
+{
+ "verdict": "PASS",
+ "reasons": [],
+ "worst_penetration_mm": 3.4,
+ "residual_penetrations_mm": {
+  "large_wooden_desk_0 | world": 3.4,
+  "grey_filing_cabinet_1_0 | world": 0.3,
+  "black_lab_table_0 | black_microscope_0": 0.2,
+  "brass_desk_lamp_0 | world": 0.2,
+  "silver_desk_lamp_0 | world": 0.2,
+  "wooden_framed_map_board_0 | world": 0.2,
+  "grey_filing_cabinet_2_0 | world": 0.1,
+  "glass_beaker_0 | world": 0.1,
+  "black_leather_office_chair_0 | world": 0.1,
+  "black_lab_table_0 | world": 0.1,
+  "brown_and_black_stool_0 | world": 0.1
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": 0.8829,
+ "settled_s": 30.0,
+ "diverged": null
+}

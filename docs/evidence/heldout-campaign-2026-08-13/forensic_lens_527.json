@@ -1,0 +1,134 @@
+{
+ "xml": "<run dir>/527/mujoco/527.xml",
+ "nbody": 11,
+ "ngeom": 130,
+ "bodies": {
+  "wood_and_metal_shelving_unit_0": {
+   "min_half_thickness_cm": 0.44,
+   "max_extent_cm": 107.8,
+   "n_hulls": 16,
+   "mass_kg": 37.161
+  },
+  "blue_acrylic_award_0": {
+   "min_half_thickness_cm": 0.13,
+   "max_extent_cm": 10.3,
+   "n_hulls": 16,
+   "mass_kg": 0.009
+  },
+  "black_glove_0": {
+   "min_half_thickness_cm": 0.06,
+   "max_extent_cm": 19.5,
+   "n_hulls": 16,
+   "mass_kg": 0.138
+  },
+  "white_ceramic_mug_0": {
+   "min_half_thickness_cm": 0.37,
+   "max_extent_cm": 10.0,
+   "n_hulls": 16,
+   "mass_kg": 0.044
+  },
+  "yellow_toy_robot_0": {
+   "min_half_thickness_cm": 0.25,
+   "max_extent_cm": 15.9,
+   "n_hulls": 16,
+   "mass_kg": 0.127
+  },
+  "pink_paper_packet_0": {
+   "min_half_thickness_cm": 0.18,
+   "max_extent_cm": 8.0,
+   "n_hulls": 7,
+   "mass_kg": 0.005
+  },
+  "large_brown_cardboard_box_1_0": {
+   "min_half_thickness_cm": 0.7,
+   "max_extent_cm": 32.1,
+   "n_hulls": 8,
+   "mass_kg": 0.816
+  },
+  "medium_brown_cardboard_box_2_0": {
+   "min_half_thickness_cm": 0.04,
+   "max_extent_cm": 27.2,
+   "n_hulls": 8,
+   "mass_kg": 0.254
+  },
+  "small_brown_cardboard_box_3_0": {
+   "min_half_thickness_cm": 0.18,
+   "max_extent_cm": 25.1,
+   "n_hulls": 8,
+   "mass_kg": 0.365
+  },
+  "green_and_white_webcam_stand_box_0": {
+   "min_half_thickness_cm": 0.24,
+   "max_extent_cm": 19.8,
+   "n_hulls": 8,
+   "mass_kg": 0.066
+  }
+ },
+ "n_thin_bodies": 10,
+ "n_small_bodies": 3,
+ "spawn_penetrations_mm": {
+  "green_and_white_webcam_stand_box_0 | large_brown_cardboard_box_1_0": 44.2,
+  "white_ceramic_mug_0 | wood_and_metal_shelving_unit_0": 23.8,
+  "blue_acrylic_award_0 | wood_and_metal_shelving_unit_0": 22.2,
+  "medium_brown_cardboard_box_2_0 | wood_and_metal_shelving_unit_0": 21.4,
+  "black_glove_0 | wood_and_metal_shelving_unit_0": 19.6,
+  "wood_and_metal_shelving_unit_0 | yellow_toy_robot_0": 19.5,
+  "medium_brown_cardboard_box_2_0 | world": 4.8,
+  "small_brown_cardboard_box_3_0 | world": 3.3,
+  "large_brown_cardboard_box_1_0 | world": 0.2,
+  "wood_and_metal_shelving_unit_0 | world": 0.2,
+  "green_and_white_webcam_stand_box_0 | world": 0.2
+ },
+ "spawn_worst_pen_mm": 44.2,
+ "diverged": {
+  "time_s": 0.464,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "yellow_toy_robot_0"
+ },
+ "late_jitter_sum_qvel": null,
+ "state_at_s": 0.0,
+ "final": {
+  "wood_and_metal_shelving_unit_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "blue_acrylic_award_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "black_glove_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "white_ceramic_mug_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "yellow_toy_robot_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "pink_paper_packet_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "large_brown_cardboard_box_1_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "medium_brown_cardboard_box_2_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "small_brown_cardboard_box_3_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "green_and_white_webcam_stand_box_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  }
+ },
+ "n_toppled_gt30deg": 0
+}

@@ -1,0 +1,101 @@
+{
+ "label": "scene B R3 nodamp",
+ "regime": {
+  "LENS_SPIKE_MAX_WORKERS": "8",
+  "LENS_SPIKE_REUSE_COLLISION": "1",
+  "LENS_SPIKE_NO_DAMPING": "1"
+ },
+ "dt_min": 2.81,
+ "integrity": "STALE ['blue_book_0_visual.obj', 'brown_sofa_0_visual.obj', 'grey_television_0_visual.obj', 'pink_and_blue_rug_0_visual.obj', 'purple_end_table_0_visual.obj']",
+ "xml": "<run dir>/spike_sceneB_R3/mujoco/sceneB.xml",
+ "com0_pos": {
+  "brown_sofa_0": [
+   -0.0808,
+   -2.4991,
+   0.2482
+  ],
+  "purple_end_table_0": [
+   0.7527,
+   -2.2787,
+   0.1148
+  ],
+  "purple_table_lamp_0": [
+   0.9235,
+   -2.2302,
+   0.5092
+  ],
+  "teal_telephone_0": [
+   0.7053,
+   -2.1781,
+   0.331
+  ],
+  "red_book_0": [
+   0.7512,
+   -2.2027,
+   0.2779
+  ],
+  "blue_book_0": [
+   0.5764,
+   -2.0867,
+   0.0306
+  ],
+  "yellow_book_0": [
+   0.5406,
+   -2.122,
+   0.0394
+  ],
+  "purple_floor_lamp_0": [
+   -0.5698,
+   -2.5442,
+   0.4974
+  ],
+  "pink_and_blue_rug_0": [
+   -0.0677,
+   -1.7562,
+   0.0058
+  ],
+  "grey_television_0": [
+   -0.1646,
+   -0.6102,
+   0.0474
+  ]
+ },
+ "drift_cm": {
+  "1.5": {
+   "brown_sofa_0": 0.02,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 1.9,
+   "teal_telephone_0": 1.73,
+   "red_book_0": 1.52,
+   "blue_book_0": 0.16,
+   "yellow_book_0": 0.15,
+   "purple_floor_lamp_0": 10.03,
+   "pink_and_blue_rug_0": 0.0,
+   "grey_television_0": 0.0
+  },
+  "3.0": {
+   "brown_sofa_0": 0.02,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 1.9,
+   "teal_telephone_0": 1.89,
+   "red_book_0": 1.71,
+   "blue_book_0": 0.16,
+   "yellow_book_0": 0.15,
+   "purple_floor_lamp_0": 10.25,
+   "pink_and_blue_rug_0": 0.0,
+   "grey_television_0": 0.0
+  },
+  "5.0": {
+   "brown_sofa_0": 0.02,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 1.9,
+   "teal_telephone_0": 2.05,
+   "red_book_0": 1.93,
+   "blue_book_0": 0.16,
+   "yellow_book_0": 0.15,
+   "purple_floor_lamp_0": 10.54,
+   "pink_and_blue_rug_0": 0.0,
+   "grey_television_0": 0.0
+  }
+ }
+}

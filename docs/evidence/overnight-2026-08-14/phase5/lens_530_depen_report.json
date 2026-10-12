@@ -1,0 +1,30 @@
+{
+ "xml_in": "<run dir>/heldout_20260813/lens_1000098530/mujoco/1000098530.xml",
+ "xml_out": "<evidence>/overnight_20260814/phase5/lens_530_depen.xml",
+ "spawn_worst_body_pen_before_mm": 20.6,
+ "spawn_worst_body_pen_after_mm": 1.2,
+ "resolved": true,
+ "iterations": 9,
+ "displacements_cm": {
+  "black_computer_mouse_0": [
+   -0.0,
+   0.1,
+   -2.0
+  ],
+  "black_open_laptop_0": [
+   0.0,
+   -0.1,
+   1.0
+  ],
+  "coiled_black_cable_0": [
+   -0.4,
+   0.4,
+   0.8
+  ],
+  "black_thermos_cup_0": [
+   -0.2,
+   -0.2,
+   0.4
+  ]
+ }
+}

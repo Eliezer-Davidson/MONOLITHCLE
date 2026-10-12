@@ -1,0 +1,23 @@
+{
+ "verdict": "WARN",
+ "reasons": [
+  "topple: body 'black_thermos_0' tilted 31.2\u00b0 (> 30\u00b0) vs spawn",
+  "late jitter 2.171 sum|qvel| > 1.0 over the final second"
+ ],
+ "worst_penetration_mm": 4.5,
+ "residual_penetrations_mm": {
+  "blue_and_black_laptop_2_0 | white_round_table_0": 4.5,
+  "black_thermos_0 | white_round_table_0": 0.3,
+  "black_backpack_0 | world": 0.2,
+  "grey_and_yellow_bench_0 | world": 0.2,
+  "white_round_table_0 | world": 0.1,
+  "black_laptop_1_0 | grey_and_yellow_bench_0": 0.0
+ },
+ "escapes": {},
+ "topples": {
+  "black_thermos_0": 31.2
+ },
+ "late_jitter": 2.171,
+ "settled_s": 30.0,
+ "diverged": null
+}

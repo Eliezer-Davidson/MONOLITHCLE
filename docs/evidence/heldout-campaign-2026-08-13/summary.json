@@ -1,0 +1,16 @@
+{
+ "tag": "heldout_20260813",
+ "config": {
+  "LENS_CEM_POP": "2048",
+  "support_top": "off",
+  "postopt": "on-deferred"
+ },
+ "scenes": {
+  "526": {"completed": true, "forensic": "forensic_lens_526.json", "diverged_s": 9.454, "gate_30s_20260817": "FAIL"},
+  "527": {"completed": true, "forensic": "forensic_lens_527.json", "diverged_s": 0.464, "gate_30s_20260817": "FAIL"},
+  "528": {"completed": true, "minutes": 45.7, "forensic": "forensic_lens_528.json", "diverged_s": null, "gate_30s_20260817": "PASS"},
+  "530": {"completed": true, "forensic": "forensic_lens_530.json", "diverged_s": 1.33, "gate_30s_20260817": "FAIL"},
+  "534": {"completed": true, "forensic": "forensic_lens_534.json", "diverged_s": null, "gate_30s_20260817": "PASS"}
+ },
+ "_note": "Assembled for publication from the per-scene forensic JSON beside this file, the 2026-08-17 gate verdicts in ../heldout-gate-2026-08-17/, and the run log (45.7 min for scene 528; the log itself is not shipped). The original per-invocation driver record is not shipped."
+}

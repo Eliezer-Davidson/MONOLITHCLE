@@ -1,0 +1,33 @@
+{
+ "verdict": "FAIL",
+ "reasons": [
+  "divergence: mjWARN_BADQACC at t=0.702s on body 'yellow_toy_robot_0' (dof 24)",
+  "topple: body 'yellow_toy_robot_0' tilted 38.9\u00b0 (> 30\u00b0) vs spawn",
+  "topple: body 'pink_paper_packet_0' tilted 34.3\u00b0 (> 30\u00b0) vs spawn"
+ ],
+ "worst_penetration_mm": 0.9,
+ "residual_penetrations_mm": {
+  "green_and_white_webcam_stand_box_0 | world": 0.9,
+  "green_and_white_webcam_stand_box_0 | large_brown_cardboard_box_1_0": 0.3,
+  "medium_brown_cardboard_box_2_0 | world": 0.2,
+  "wood_and_metal_shelving_unit_0 | world": 0.2,
+  "blue_acrylic_award_0 | wood_and_metal_shelving_unit_0": 0.1,
+  "white_ceramic_mug_0 | wood_and_metal_shelving_unit_0": 0.1,
+  "large_brown_cardboard_box_1_0 | world": 0.1,
+  "small_brown_cardboard_box_3_0 | world": 0.1,
+  "black_glove_0 | wood_and_metal_shelving_unit_0": 0.0
+ },
+ "escapes": {},
+ "topples": {
+  "yellow_toy_robot_0": 38.9,
+  "pink_paper_packet_0": 34.3
+ },
+ "late_jitter": null,
+ "settled_s": 0.5,
+ "diverged": {
+  "time_s": 0.702,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "yellow_toy_robot_0"
+ }
+}

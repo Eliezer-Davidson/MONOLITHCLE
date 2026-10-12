@@ -1,0 +1,207 @@
+{
+ "xml": "<repo>/<run dir>/heldout_20260813/lens_1000098528/mujoco/1000098528.xml",
+ "timestep": 0.002,
+ "nbody": 8,
+ "free_bodies": [
+  "grey_and_green_armchair_0",
+  "grey_armchair_0",
+  "large_whiteboard_0",
+  "round_coffee_table_0",
+  "small_whiteboard_0",
+  "yellow_and_grey_sofa_1_0",
+  "yellow_and_grey_sofa_2_0"
+ ],
+ "static_bodies": [],
+ "masses_kg": {
+  "grey_and_green_armchair_0": 2.3169,
+  "yellow_and_grey_sofa_1_0": 7.0394,
+  "yellow_and_grey_sofa_2_0": 6.5503,
+  "round_coffee_table_0": 0.188,
+  "grey_armchair_0": 7.0681,
+  "small_whiteboard_0": 1.1979,
+  "large_whiteboard_0": 0.131
+ },
+ "damping_nonzero": false,
+ "gravity": [
+  0.0,
+  0.0,
+  -9.81
+ ],
+ "windows_s": [
+  1.5,
+  3.0,
+  5.0,
+  10.0,
+  30.0
+ ],
+ "diverged": null,
+ "escaped": {},
+ "measurements": {
+  "1.5": {
+   "valid": true,
+   "bodies": {
+    "grey_and_green_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_1_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_2_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "round_coffee_table_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "grey_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "small_whiteboard_0": {
+     "drift_cm": 0.01,
+     "tilt_deg": 0.0
+    },
+    "large_whiteboard_0": {
+     "drift_cm": 0.06,
+     "tilt_deg": 0.2
+    }
+   }
+  },
+  "3.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_green_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_1_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_2_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "round_coffee_table_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "grey_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "small_whiteboard_0": {
+     "drift_cm": 0.01,
+     "tilt_deg": 0.0
+    },
+    "large_whiteboard_0": {
+     "drift_cm": 0.02,
+     "tilt_deg": 0.1
+    }
+   }
+  },
+  "5.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_green_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_1_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_2_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "round_coffee_table_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "grey_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "small_whiteboard_0": {
+     "drift_cm": 0.03,
+     "tilt_deg": 0.0
+    },
+    "large_whiteboard_0": {
+     "drift_cm": 0.02,
+     "tilt_deg": 0.1
+    }
+   }
+  },
+  "10.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_green_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_1_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_2_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "round_coffee_table_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "grey_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "small_whiteboard_0": {
+     "drift_cm": 0.05,
+     "tilt_deg": 0.0
+    },
+    "large_whiteboard_0": {
+     "drift_cm": 0.03,
+     "tilt_deg": 0.1
+    }
+   }
+  },
+  "30.0": {
+   "valid": true,
+   "bodies": {
+    "grey_and_green_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_1_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "yellow_and_grey_sofa_2_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "round_coffee_table_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "grey_armchair_0": {
+     "drift_cm": 0.0,
+     "tilt_deg": 0.0
+    },
+    "small_whiteboard_0": {
+     "drift_cm": 0.14,
+     "tilt_deg": 0.1
+    },
+    "large_whiteboard_0": {
+     "drift_cm": 0.03,
+     "tilt_deg": 0.1
+    }
+   }
+  }
+ },
+ "label": "lens_528"
+}

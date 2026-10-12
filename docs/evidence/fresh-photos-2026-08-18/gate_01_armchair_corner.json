@@ -1,0 +1,14 @@
+{
+ "verdict": "PASS",
+ "reasons": [],
+ "worst_penetration_mm": 0.1,
+ "residual_penetrations_mm": {
+  "grey_fabric_armchair_0 | world": 0.1,
+  "grey_fabric_armchair_0 | yellow_velvet_pillow_0": 0.0
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": 0.0366,
+ "settled_s": 30.0,
+ "diverged": null
+}

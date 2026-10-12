@@ -1,0 +1,123 @@
+{
+ "xml": "<run dir>/530/mujoco/530.xml",
+ "nbody": 10,
+ "ngeom": 96,
+ "bodies": {
+  "black_office_chair_0": {
+   "min_half_thickness_cm": 2.1,
+   "max_extent_cm": 46.5,
+   "n_hulls": 8,
+   "mass_kg": 5.214
+  },
+  "left_white_desk_0": {
+   "min_half_thickness_cm": 0.49,
+   "max_extent_cm": 53.2,
+   "n_hulls": 8,
+   "mass_kg": 0.759
+  },
+  "right_white_desk_0": {
+   "min_half_thickness_cm": 0.42,
+   "max_extent_cm": 36.5,
+   "n_hulls": 8,
+   "mass_kg": 0.545
+  },
+  "black_open_laptop_0": {
+   "min_half_thickness_cm": 0.38,
+   "max_extent_cm": 27.4,
+   "n_hulls": 6,
+   "mass_kg": 0.149
+  },
+  "black_thermos_cup_0": {
+   "min_half_thickness_cm": 0.14,
+   "max_extent_cm": 9.8,
+   "n_hulls": 8,
+   "mass_kg": 0.022
+  },
+  "black_computer_mouse_0": {
+   "min_half_thickness_cm": 0.06,
+   "max_extent_cm": 7.0,
+   "n_hulls": 8,
+   "mass_kg": 0.007
+  },
+  "black_backpack_0": {
+   "min_half_thickness_cm": 0.44,
+   "max_extent_cm": 22.5,
+   "n_hulls": 16,
+   "mass_kg": 0.321
+  },
+  "black_closed_laptop_0": {
+   "min_half_thickness_cm": 0.02,
+   "max_extent_cm": 4.8,
+   "n_hulls": 16,
+   "mass_kg": 0.003
+  },
+  "coiled_black_cable_0": {
+   "min_half_thickness_cm": 0.41,
+   "max_extent_cm": 15.3,
+   "n_hulls": 8,
+   "mass_kg": 0.041
+  }
+ },
+ "n_thin_bodies": 8,
+ "n_small_bodies": 3,
+ "spawn_penetrations_mm": {
+  "black_backpack_0 | black_computer_mouse_0": 20.6,
+  "black_computer_mouse_0 | world": 9.4,
+  "black_open_laptop_0 | left_white_desk_0": 8.9,
+  "coiled_black_cable_0 | right_white_desk_0": 8.6,
+  "black_thermos_cup_0 | left_white_desk_0": 5.6,
+  "black_backpack_0 | world": 0.3,
+  "black_office_chair_0 | world": 0.2,
+  "left_white_desk_0 | world": 0.1,
+  "right_white_desk_0 | world": 0.1,
+  "black_closed_laptop_0 | world": 0.1
+ },
+ "spawn_worst_pen_mm": 20.6,
+ "diverged": {
+  "time_s": 1.33,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "black_thermos_cup_0"
+ },
+ "late_jitter_sum_qvel": null,
+ "state_at_s": 1.0,
+ "final": {
+  "black_office_chair_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "left_white_desk_0": {
+   "drift_cm": 0.7,
+   "tilt_deg": 0.2
+  },
+  "right_white_desk_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "black_open_laptop_0": {
+   "drift_cm": 0.7,
+   "tilt_deg": 0.8
+  },
+  "black_thermos_cup_0": {
+   "drift_cm": 5867.6,
+   "tilt_deg": 79.3
+  },
+  "black_computer_mouse_0": {
+   "drift_cm": 29.3,
+   "tilt_deg": 18.8
+  },
+  "black_backpack_0": {
+   "drift_cm": 49.2,
+   "tilt_deg": 29.4
+  },
+  "black_closed_laptop_0": {
+   "drift_cm": 0.0,
+   "tilt_deg": 0.0
+  },
+  "coiled_black_cable_0": {
+   "drift_cm": 33.9,
+   "tilt_deg": 15.0
+  }
+ },
+ "n_toppled_gt30deg": 1
+}

@@ -1,0 +1,100 @@
+{
+ "label": "scene B R0",
+ "regime": {
+  "LENS_SPIKE_MAX_WORKERS": "8",
+  "LENS_SPIKE_REUSE_COLLISION": "1"
+ },
+ "dt_min": 3.29,
+ "integrity": "STALE ['blue_book_0_visual.obj', 'brown_sofa_0_visual.obj', 'grey_television_0_visual.obj', 'pink_and_blue_rug_0_visual.obj', 'purple_end_table_0_visual.obj']",
+ "xml": "<run dir>/spike_sceneB_R0/mujoco/sceneB.xml",
+ "com0_pos": {
+  "brown_sofa_0": [
+   -0.0703,
+   -2.5431,
+   0.259
+  ],
+  "purple_end_table_0": [
+   0.765,
+   -2.3182,
+   0.1148
+  ],
+  "purple_table_lamp_0": [
+   0.9247,
+   -2.2337,
+   0.5096
+  ],
+  "teal_telephone_0": [
+   0.7487,
+   -2.2574,
+   0.2877
+  ],
+  "red_book_0": [
+   0.7985,
+   -2.0479,
+   0.2331
+  ],
+  "blue_book_0": [
+   0.6101,
+   -2.1436,
+   0.0306
+  ],
+  "yellow_book_0": [
+   0.5396,
+   -1.9912,
+   0.0081
+  ],
+  "purple_floor_lamp_0": [
+   -0.5566,
+   -2.6478,
+   0.5262
+  ],
+  "pink_and_blue_rug_0": [
+   -0.0562,
+   -1.7942,
+   0.0058
+  ],
+  "grey_television_0": [
+   -0.1592,
+   -0.6002,
+   0.0474
+  ]
+ },
+ "drift_cm": {
+  "1.5": {
+   "brown_sofa_0": 1.97,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 52.58,
+   "teal_telephone_0": 2.79,
+   "red_book_0": 67.43,
+   "blue_book_0": 0.92,
+   "yellow_book_0": 1057.87,
+   "purple_floor_lamp_0": 61.21,
+   "pink_and_blue_rug_0": 0.21,
+   "grey_television_0": 0.0
+  },
+  "3.0": {
+   "brown_sofa_0": 1.97,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 51.72,
+   "teal_telephone_0": 2.78,
+   "red_book_0": 34.09,
+   "blue_book_0": 0.92,
+   "yellow_book_0": 852.25,
+   "purple_floor_lamp_0": 59.41,
+   "pink_and_blue_rug_0": 0.2,
+   "grey_television_0": 0.0
+  },
+  "5.0": {
+   "brown_sofa_0": 1.97,
+   "purple_end_table_0": 0.02,
+   "purple_table_lamp_0": 53.31,
+   "teal_telephone_0": 2.8,
+   "red_book_0": 97.17,
+   "blue_book_0": 0.92,
+   "yellow_book_0": 917.39,
+   "purple_floor_lamp_0": 61.16,
+   "pink_and_blue_rug_0": 0.22,
+   "grey_television_0": 0.0
+  }
+ }
+}

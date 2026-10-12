@@ -1,0 +1,38 @@
+[
+ {
+  "cup_visual_convex_hull_volume_m3": 0.00021060153097648382,
+  "mass_at_density_200": 0.0421
+ },
+ {
+  "exp": "cup_50g",
+  "cup_mass": 0.05,
+  "diverged": {
+   "t": 1.17,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "cup_100g",
+  "cup_mass": 0.1,
+  "diverged": {
+   "t": 0.932,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "cup_150g",
+  "cup_mass": 0.152,
+  "diverged": {
+   "t": 5.404,
+   "warn": "mjWARN_BADQACC",
+   "body": "black_thermos_cup_0"
+  }
+ },
+ {
+  "exp": "cup_300g",
+  "cup_mass": 0.304,
+  "diverged": null
+ }
+]

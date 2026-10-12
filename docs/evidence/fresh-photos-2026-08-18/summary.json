@@ -1,0 +1,43 @@
+{
+  "tag": "fresh_20260818",
+  "note": "Derived for publication from the four gate_*.json files beside it and the driver's wall-clock minutes; the driver's own per-invocation record is not shipped. gate_03_cafe_counter_cups.json is a hand re-run of tools/verify_scene.py --seconds 30 on 2026-08-19 on the unattended run's scene: lens run had exited 3 on its internal gate, so the driver recorded no verdict for 03; the re-run reproduced the in-run gate exactly (diverged 0.598 s, 21.4 mm, 8 topples).",
+  "scenes": {
+    "01_armchair_corner": {
+      "minutes": 12.6,
+      "verdict": "PASS",
+      "worst_penetration_mm": 0.1,
+      "n_topples": 0,
+      "diverged": null,
+      "settled_s": 30.0
+    },
+    "02_conference_six_chairs": {
+      "minutes": 17.1,
+      "verdict": "PASS",
+      "worst_penetration_mm": 0.2,
+      "n_topples": 0,
+      "diverged": null,
+      "settled_s": 30.0
+    },
+    "03_cafe_counter_cups": {
+      "minutes": 67.8,
+      "verdict": "FAIL",
+      "worst_penetration_mm": 21.4,
+      "n_topples": 8,
+      "diverged": {
+        "time_s": 0.598,
+        "warning": "mjWARN_BADQACC",
+        "dof": 84,
+        "body": "yellow_sign_0"
+      },
+      "settled_s": 0.5
+    },
+    "04_meeting_book_stack": {
+      "minutes": 49.3,
+      "verdict": "WARN",
+      "worst_penetration_mm": 1.7,
+      "n_topples": 7,
+      "diverged": null,
+      "settled_s": 30.0
+    }
+  }
+}

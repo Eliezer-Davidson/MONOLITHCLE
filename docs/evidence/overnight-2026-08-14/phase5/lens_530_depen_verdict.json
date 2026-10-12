@@ -1,0 +1,28 @@
+{
+ "verdict": "FAIL",
+ "reasons": [
+  "divergence: mjWARN_BADQACC at t=0.406s on body 'black_thermos_cup_0' (dof 24)",
+  "residual penetration 29.3 mm > 20 mm: black_computer_mouse_0 | world"
+ ],
+ "worst_penetration_mm": 29.3,
+ "residual_penetrations_mm": {
+  "black_computer_mouse_0 | world": 29.3,
+  "black_backpack_0 | black_computer_mouse_0": 1.2,
+  "black_thermos_cup_0 | left_white_desk_0": 0.6,
+  "black_backpack_0 | world": 0.3,
+  "black_office_chair_0 | world": 0.2,
+  "left_white_desk_0 | world": 0.1,
+  "right_white_desk_0 | world": 0.1,
+  "black_closed_laptop_0 | world": 0.1
+ },
+ "escapes": {},
+ "topples": {},
+ "late_jitter": null,
+ "settled_s": 0.0,
+ "diverged": {
+  "time_s": 0.406,
+  "warning": "mjWARN_BADQACC",
+  "dof": 24,
+  "body": "black_thermos_cup_0"
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "xml": "<run dir>/526/mujoco/526.xml",
+ "nbody": 15,
+ "ngeom": 127,
+ "bodies": {
+  "wooden_desk_0": {
+   "min_half_thickness_cm": 0.98,
+   "max_extent_cm": 88.1,
+   "n_hulls": 8,
+   "mass_kg": 5.144
+  },
+  "black_mesh_office_chair_0": {
+   "min_half_thickness_cm": 1.99,
+   "max_extent_cm": 57.6,
+   "n_hulls": 8,
+   "mass_kg": 9.208
+  },
+  "black_camera_rig_0": {
+   "min_half_thickness_cm": 0.46,
+   "max_extent_cm": 13.5,
+   "n_hulls": 8,
+   "mass_kg": 0.114
+  },
+  "blue_ball_0": {
+   "min_half_thickness_cm": 0.24,
+   "max_extent_cm": 2.9,
+   "n_hulls": 8,
+   "mass_kg": 0.002
+  },
+  "green_hand_sanitizer_bottle_0": {
+   "min_half_thickness_cm": 0.11,
+   "max_extent_cm": 5.3,
+   "n_hulls": 8,
+   "mass_kg": 0.002
+  },
+  "yellow_screwdriver_0": {
+   "min_half_thickness_cm": 0.22,
+   "max_extent_cm": 5.7,
+   "n_hulls": 8,
+   "mass_kg": 0.001
+  },
+  "white_robotic_arm_model_0": {
+   "min_half_thickness_cm": 0.77,
+   "max_extent_cm": 16.8,
+   "n_hulls": 8,
+   "mass_kg": 0.084
+  },
+  "green_ball_0": {
+   "min_half_thickness_cm": 0.37,
+   "max_extent_cm": 3.3,
+   "n_hulls": 8,
+   "mass_kg": 0.007
+  },
+  "black_camera_stand_0": {
+   "min_half_thickness_cm": 0.55,
+   "max_extent_cm": 12.6,
+   "n_hulls": 8,
+   "mass_kg": 0.064
+  },
+  "black_thermos_bottle_0": {
+   "min_half_thickness_cm": 0.54,
+   "max_extent_cm": 12.9,
+   "n_hulls": 8,
+   "mass_kg": 0.036
+  },
+  "framed_photo_1_0": {
+   "min_half_thickness_cm": 0.56,
+   "max_extent_cm": 16.8,
+   "n_hulls": 8,
+   "mass_kg": 0.078
+  },
+  "framed_photo_2_0": {
+   "min_half_thickness_cm": 0.02,
+   "max_extent_cm": 11.4,
+   "n_hulls": 8,
+   "mass_kg": 0.019
+  },
+  "framed_photo_3_0": {
+   "min_half_thickness_cm": 0.03,
+   "max_extent_cm": 20.6,
+   "n_hulls": 8,
+   "mass_kg": 0.087
+  },
+  "black_power_adapter_0": {
+   "min_half_thickness_cm": 0.14,
+   "max_extent_cm": 4.9,
+   "n_hulls": 8,
+   "mass_kg": 0.004
+  }
+ },
+ "n_thin_bodies": 13,
+ "n_small_bodies": 6,
+ "spawn_penetrations_mm": {
+  "black_mesh_office_chair_0 | wooden_desk_0": 114.3,
+  "black_thermos_bottle_0 | wooden_desk_0": 25.4,
+  "green_ball_0 | wooden_desk_0": 24.2,
+  "black_camera_stand_0 | wooden_desk_0": 23.1,
+  "blue_ball_0 | wooden_desk_0": 17.0,
+  "black_mesh_office_chair_0 | world": 0.1
+ },
+ "spawn_worst_pen_mm": 114.3,
+ "diverged": {
+  "time_s": 9.454,
+  "warning": "mjWARN_BADQACC",
+  "dof": 54,
+  "body": "black_thermos_bottle_0"
+ },
+ "late_jitter_sum_qvel": 39022.9631,
+ "state_at_s": 9.0,
+ "final": {
+  "wooden_desk_0": {
+   "drift_cm": 2.6,
+   "tilt_deg": 0.9
+  },
+  "black_mesh_office_chair_0": {
+   "drift_cm": 2.8,
+   "tilt_deg": 0.9
+  },
+  "black_camera_rig_0": {
+   "drift_cm": 58.8,
+   "tilt_deg": 74.4
+  },
+  "blue_ball_0": {
+   "drift_cm": 71.2,
+   "tilt_deg": 38.2
+  },
+  "green_hand_sanitizer_bottle_0": {
+   "drift_cm": 167.0,
+   "tilt_deg": 94.8
+  },
+  "yellow_screwdriver_0": {
+   "drift_cm": 0.9,
+   "tilt_deg": 2.2
+  },
+  "white_robotic_arm_model_0": {
+   "drift_cm": 60.5,
+   "tilt_deg": 62.1
+  },
+  "green_ball_0": {
+   "drift_cm": 47.0,
+   "tilt_deg": 22.6
+  },
+  "black_camera_stand_0": {
+   "drift_cm": 13.0,
+   "tilt_deg": 6.3
+  },
+  "black_thermos_bottle_0": {
+   "drift_cm": 249.4,
+   "tilt_deg": 159.4
+  },
+  "framed_photo_1_0": {
+   "drift_cm": 68.2,
+   "tilt_deg": 33.8
+  },
+  "framed_photo_2_0": {
+   "drift_cm": 73.8,
+   "tilt_deg": 38.2
+  },
+  "framed_photo_3_0": {
+   "drift_cm": 31.3,
+   "tilt_deg": 17.3
+  },
+  "black_power_adapter_0": {
+   "drift_cm": 98.8,
+   "tilt_deg": 41.4
+  }
+ },
+ "n_toppled_gt30deg": 8
+}
