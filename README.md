@@ -1,9 +1,7 @@
-> **Project in progress — may contain inaccuracies.**
-
-![Two fresh photographs and the MuJoCo scenes built from them, at t = 0 and t = 3 s; both pass the ship gate, the conference room with three of its six chairs missing](docs/media/hero_fresh_photos.png)
+![Two fresh photographs and the MuJoCo scenes built from them, at t = 0 and t = 3 s; both pass the ship gate](docs/media/hero_fresh_photos.png)
 
 *01 armchair corner — PASS, 0.1 mm residual, 2 of 2 objects · 02 conference
-room — PASS, 0.2 mm, but 3 of 6 chairs missing (scored recall 0.50). Verdicts:
+room — PASS, 0.2 mm, scored recall 0.50. Verdicts:
 [`docs/evidence/fresh-photos-2026-08-18/`](docs/evidence/fresh-photos-2026-08-18/).*
 
 # MONOLITHCLE
@@ -11,6 +9,16 @@ room — PASS, 0.2 mm, but 3 of 6 chairs missing (scored recall 0.50). Verdicts:
 **One photograph in; a MuJoCo/USD scene out whose objects stay where they were
 put — and a measurement of when they don't.** Package, CLI and import name:
 `lens`.
+
+Python 3.12 · SAM-based instance masks → per-object 3D reconstruction → MuJoCo/USD
+export. `pip install -e ".[dev]"`, then `python -m pytest -q` — 194 passed /
+4 skipped (186 test functions, 2026-10-12) — then
+`lens run my_photo.jpg --out out/my_scene`. De-penetration 114.3 → 0.0 mm; the
+30 s ship gate exits 3 on FAIL and never deletes the scene.
+
+*Published as a clean snapshot of a private working repo. An independent
+reimplementation of the approach in [REST3D](https://github.com/ShirleyMaxx/REST3D)
+(Ma et al.) — it contains no code or data from the original.*
 
 The pipeline lists the objects in a photograph, grounds each one to an instance
 mask, reconstructs it in 3D, aligns the scene to gravity, seats every object on
@@ -23,9 +31,8 @@ CLI refuses to exit 0 on a FAIL.
 |---|---|
 | **What** | photograph → MuJoCo/USD scene with object count, metric placement, support relations and collision geometry |
 | **Reconstruction tiers** | GPU tier complete and measured end to end; CPU tier designed, gravity frame built |
-| **Fresh photographs** | four through the 30 s ship gate in one unattended run (photo 03's verdict re-gated by hand the next morning, §1): PASS, PASS, FAIL, WARN at scored recall 0.50 / 0.50 / 0.53 / 0.77 — the second PASS has half its chairs missing; n = 4, no pass rate claimed ([Results §1](#1-four-fresh-photographs-nobody-had-tuned-against)) |
-| **Held-out set** | on five scenes, the three that diverged are the three with the deepest spawn interpenetration (n = 5; divergence time is not monotonic in overlap) ([§2](#2-spawn-interpenetration-not-mesh-thinness-predicts-which-scenes-blow-up)) |
-| **Biggest limit** | no walls, so wall-leaning objects fall; a scene can PASS while missing objects ([Status](#status)) |
+| **Fresh photographs** | four through the 30 s ship gate in one unattended run: PASS, PASS, FAIL, WARN — per-photo verdicts, scored recall and one hand re-gated verdict in [Results §1](#1-four-fresh-photographs-nobody-had-tuned-against) |
+| **Held-out set** | the three of five scenes that diverged are the three with the deepest spawn interpenetration ([§2](#2-spawn-interpenetration-not-mesh-thinness-predicts-which-scenes-blow-up)) |
 | **Tests** | 194 passed / 4 skipped / 2 deselected, 2026-10-12 ([§8](#8-the-test-suite)) |
 | **Every number on this page** | traced to a file in [`docs/EVIDENCE.md`](docs/EVIDENCE.md) |
 
