@@ -6,6 +6,8 @@ room — PASS, 0.2 mm, scored recall 0.50. Verdicts:
 
 # MONOLITHCLE
 
+[![tests](https://github.com/Eliezer-Davidson/MONOLITHCLE/actions/workflows/tests.yml/badge.svg)](https://github.com/Eliezer-Davidson/MONOLITHCLE/actions/workflows/tests.yml)
+
 **One photograph in; a MuJoCo/USD scene out whose objects stay where they were
 put — and a measurement of when they don't.** Package, CLI and import name:
 `lens`.
