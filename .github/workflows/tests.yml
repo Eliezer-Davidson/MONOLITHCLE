@@ -8,5 +8,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -e ".[dev]"
-      - run: python -m pytest -q
+      - run: pip install -e ".[dev,usd]"
+      - name: pytest
+        run: |
+          set -o pipefail
+          python -m pytest -q 2>&1 | tee out.txt || {
+            tail -n 10 out.txt | while IFS= read -r l; do echo "::error::${l}"; done
+            exit 1; }
